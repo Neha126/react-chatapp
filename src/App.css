@@ -22,15 +22,19 @@
   flex-direction: row;
 }
 .msgbox input{
-  padding: 10px 0;
+  padding: 10px 10px;
   flex-grow: 1;
 }
 .msgbox button{
   padding: 10px 0;
+  width: 60px;
 }
 .chat-container{
   height: 70vh;
-  overflow: scroll;
-  border: 1px solid black;
+  overflow-y: scroll;
+  /* border: 1px solid black; */
 
+}
+.chat-container::-webkit-scrollbar {
+  display: none;
 }
