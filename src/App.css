@@ -38,3 +38,11 @@
 .chat-container::-webkit-scrollbar {
   display: none;
 }
+#btn{
+  background: #008cff;
+  padding: 10px;
+  margin: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}

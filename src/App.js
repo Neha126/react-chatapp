@@ -59,6 +59,7 @@ function App() {
       {user.email ? null : (
         <div className="top">
           <button
+            id="btn"
             onClick={(e) => {
               googleLogin();
             }}
