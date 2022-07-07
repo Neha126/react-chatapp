@@ -30,7 +30,6 @@
   width: 60px;
 }
 .chat-container{
-  height: 70vh;
   overflow-y: scroll;
   /* border: 1px solid black; */
 
